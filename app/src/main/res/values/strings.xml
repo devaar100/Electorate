@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ElectorateApp</string>
+    <string name="chandni_chowk_desc">
+        In the heart of Old Delhi, Chandni Chowk is a busy shopping area with markets full of spices, dried fruits,
+        silver jewellery and vivid saris, while the narrow side streets are crowded with tiny shops selling essential oils,
+        stationery and traditional Indian sweets.
+    </string>
+    <string name="chandni_chowk_places">
+        Chandni chowk has 10 assembly constituencies spread across ...... sq km. Adarsh Nagar, Ballimaran,
+        Matia mehal, Sadar Bazar, Model Town, Shalimar Bagh, Shakur Basti, Tri Nagar and Wazirpur
+    </string>
+</resources>

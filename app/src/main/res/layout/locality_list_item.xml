@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="8"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/partNumber"
+        android:text="100"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/locality"
+        android:text="PASCHIM VIHAR"
+        android:textColor="@android:color/black"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/localityDetails"
+        android:text="1 - SHIVA ENCLAVE A-4, PASCHIM VIHAR, 2 - STAFF QTRS. BHARTIYA VIDYAPEETH EDUCATIONAL COMPLEX, A-4, PASCHIM VIHAR, 3 - NIVEDITA ENCLAVE, A-6 PASCHIM VIHAR"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content" />
+</LinearLayout>
