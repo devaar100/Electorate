@@ -37,6 +37,7 @@
                     android:textColor="@android:color/white"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
+
                 <TextView
                     android:text="Union Minister Govt of India"
                     android:textSize="13dp"
@@ -44,6 +45,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
                 <Button
+                    android:id="@+id/cand1"
                     android:text="Affidavit and more"
                     android:backgroundTint="@android:color/white"
                     android:layout_width="wrap_content"
@@ -90,6 +92,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
                 <Button
+                    android:id="@+id/cand2"
                     android:text="Affidavit and more"
                     android:backgroundTint="@android:color/white"
                     android:layout_width="wrap_content"

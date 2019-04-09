@@ -1,6 +1,8 @@
 package aarnav100.developer.electorateapp;
 
+import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -37,6 +39,17 @@ public class Locality extends AppCompatActivity {
         setContentView(R.layout.activity_locality);
         linearLayout = findViewById(R.id.parent);
         getSupportActionBar().setTitle("Shakur Basti - 1");
+        View.OnClickListener ocl = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "https://www.google.com/maps/@28.7456736,77.1164689,16z";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+        };
+        findViewById(R.id.loc_dir).setOnClickListener(ocl);
+        findViewById(R.id.loc_img).setOnClickListener(ocl);
         makeBarChart();
     }
 

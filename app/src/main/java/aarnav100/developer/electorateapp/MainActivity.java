@@ -1,9 +1,15 @@
 package aarnav100.developer.electorateapp;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -12,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        String lang = getSharedPreferences(CONST.MyPREFERENCES, this.MODE_PRIVATE).getString("language", "English");
+        setLanguage(lang);
         View.OnClickListener ocl = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,5 +54,23 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn4).setOnClickListener(ocl);
         findViewById(R.id.btn5).setOnClickListener(ocl);
         findViewById(R.id.btn6).setOnClickListener(ocl);
+    }
+
+    void setLanguage(String lang){
+        if(lang.equals("English")){
+            ((Button)findViewById(R.id.btn1)).setText(R.string.btn1_eng);
+            ((Button)findViewById(R.id.btn2)).setText(R.string.btn2_eng);
+            ((Button)findViewById(R.id.btn3)).setText(R.string.btn3_eng);
+            ((Button)findViewById(R.id.btn4)).setText(R.string.btn4_eng);
+            ((Button)findViewById(R.id.btn5)).setText(R.string.btn5_eng);
+            ((Button)findViewById(R.id.btn6)).setText(R.string.btn6_eng);
+        } else{
+            ((Button)findViewById(R.id.btn1)).setText(R.string.btn1_hin);
+            ((Button)findViewById(R.id.btn2)).setText(R.string.btn2_hin);
+            ((Button)findViewById(R.id.btn3)).setText(R.string.btn3_hin);
+            ((Button)findViewById(R.id.btn4)).setText(R.string.btn4_hin);
+            ((Button)findViewById(R.id.btn5)).setText(R.string.btn5_hin);
+            ((Button)findViewById(R.id.btn6)).setText(R.string.btn6_hin);
+        }
     }
 }

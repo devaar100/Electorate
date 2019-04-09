@@ -12,6 +12,7 @@
         android:orientation="vertical"
         android:id="@+id/parent">
         <ImageView
+            android:id="@+id/loc_img"
             android:src="@drawable/area_image"
             android:scaleType="fitXY"
             android:layout_width="match_parent"
@@ -53,6 +54,7 @@
                 android:layout_height="wrap_content" />
         </LinearLayout>
         <Button
+            android:id="@+id/loc_dir"
             android:textColor="@android:color/white"
             android:text="Get Directions"
             android:backgroundTint="@color/colorPrimary"

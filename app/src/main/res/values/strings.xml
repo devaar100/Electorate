@@ -9,4 +9,18 @@
         Chandni chowk has 10 assembly constituencies spread across ...... sq km. Adarsh Nagar, Ballimaran,
         Matia mehal, Sadar Bazar, Model Town, Shalimar Bagh, Shakur Basti, Tri Nagar and Wazirpur
     </string>
+    <string name="btn1_eng">Know Your Constituency</string>
+    <string name="btn2_eng">Know Your Polling Station</string>
+    <string name="btn3_eng">Facilities for PwD ( Divyang )</string>
+    <string name="btn4_eng">Facilities for Third Gender</string>
+    <string name="btn5_eng">Know Your Candidates</string>
+    <string name="btn6_eng">Result</string>
+    <string name="btn1_hin">अपना संसदीय क्षेत्र जानें</string>
+    <string name="btn2_hin">अपने मतदान केंद्र को जानें</string>
+    <string name="btn3_hin">PwD (दिव्यांग) के लिए सुविधाएं</string>
+    <string name="btn4_hin">थर्ड जेंडर के लिए सुविधाएं</string>
+    <string name="btn5_hin">अपने उम्मीदवारों को जानें</string>
+    <string name="btn6_hin">परिणाम</string>
+    <string name="speak_pwd">आपको सुबह 9 बजे ले जाया जाएगा और सुबह 11 बजे आपके स्थान पर छोड़ दिया जाएगा</string>
+    <string name="speak_third">आपको सुबह 11 बजे ले जाया जाएगा और दोपहर 1 बजे आपके स्थान पर छोड़ दिया जाएगा</string>
 </resources>
